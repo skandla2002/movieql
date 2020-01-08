@@ -1,10 +1,10 @@
 type Person {
-    id: Int!
-    name: String!
-    age: Int!
-    gender: String!
+  name: String!
+  age: Int!
+  gender: String!
 }
+
 type Query {
-    person: [Person]!
-    person(id: Int!): Person
+  people: [Person]!
+  person(id: Int!): Person
 }
