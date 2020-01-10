@@ -13,3 +13,8 @@ Schema: 내가 사용자로 부터 받은 data에 대한 설명
 playground 사용법 확인
 prism의 처리 방법 재확인
 Playground는 postman과 비슷한 DB를 향한 호출 테스트 공간
+
+# prisma의 playground
+
+TLDR: GraphQL is one of many use cases for Prisma
+목표는 쉬운 DB
