@@ -18,3 +18,5 @@ Playground는 postman과 비슷한 DB를 향한 호출 테스트 공간
 
 TLDR: GraphQL is one of many use cases for Prisma
 목표는 쉬운 DB 만들기
+
+# prisma의 개발 적용하기
