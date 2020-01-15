@@ -44,6 +44,6 @@ export const people = [
 ];
 
 export const getById = id => {
-  const filteredPeople = people.filter(person => people.id === id); // 조건에 맞는 것을 리턴함
+  const filteredPeople = people.filter(person => person.id === id);
   return filteredPeople[0];
 };
