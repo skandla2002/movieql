@@ -1,8 +1,13 @@
-import { people, getById } from "./db";
+import { getMovies, getById, addMovie } from "./db";
 
+// js, DB, REST등 어디와도 연결 될 수 있음
 const resolvers = {
   Query: {
-    people: () => people
+    movies: () => getMovies(),
+    movie: (_, { id }) => getById(id)
+  },
+  Mutation: {
+    addMovie: (_, { name, score }) => addMovie(name, score)
   }
 };
 
