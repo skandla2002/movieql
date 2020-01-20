@@ -26,3 +26,6 @@ TLDR: GraphQL is one of many use cases for Prisma
 Test 코드 포함 개발 진행 예정
 
 http://localhost:4000/ 접속 후 사용
+
+최종 소스 커밋 완료 후 저장
+axios 적용 등 처리 필요
