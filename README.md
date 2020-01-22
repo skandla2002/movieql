@@ -22,7 +22,6 @@ TLDR: GraphQL is one of many use cases for Prisma
 목표는 쉬운 DB 만들기
 
 # prisma의 개발 적용하기
-
 Test 코드 포함 개발 진행 예정
 
 http://localhost:4000/ 접속 후 사용
